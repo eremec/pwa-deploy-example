@@ -8665,7 +8665,7 @@ function Vh() {
     return Promise.all(a);
   });
 }
-var Wh = new X(null, 7, 5, Y, "/js/main.js /css/main.css /css/pw_maze_white.png /css/gears.svg /shell.html /api/characters https://fonts.googleapis.com/css?family\x3dCardo:400,700,400italic|Open+Sans:400,800".split(" "), null);
+var Wh = new X(null, 7, 5, Y, "main.js main.css pw_maze_white.png gears.svg shell.html /api/characters https://fonts.googleapis.com/css?family\x3dCardo:400,700,400italic|Open+Sans:400,800".split(" "), null);
 function Xh() {
   console.log("[ServiceWorker] Installing");
   return caches.open("pwa-clojure-app").then(function(a) {
